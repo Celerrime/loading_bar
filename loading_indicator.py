@@ -36,4 +36,4 @@ if __name__ == "__main__":
     MAX_LOOPS = 1_000_000
 
     for i in range(MAX_LOOPS+1):
-        progress_bar(i,MAX_LOOPS)
+        loading_bar(i,MAX_LOOPS)
